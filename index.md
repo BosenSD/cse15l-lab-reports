@@ -6,7 +6,7 @@ Command cd
 
 - **using cd with no arguments.**
 
-  
+  ![Image](example 1.png.jpg)
 
 
 
