@@ -42,11 +42,30 @@ Command `ls`
 
   **Absolute Path:** `C:\Users\Bosen\cse12-pa1-Testing\pa1-starter\cse12pa1student`
 
-  **Result Explanation:** `ls` stands for "list" which lists files and folders of a give path. If 
+  **Result Explanation:** `ls` stands for "list" which lists files and folders of a give path. If we input `ls` with no argument, it lists all files and folders in our current working directory.
 
-- **using `cd` with a path to a *directory* as an argument**
+  **Does this run into error?** No, it does not run into error.
 
-- **using `cd` with a path to a *file* as an argument**
+- **using `ls` with a path to a *directory* as an argument**
+
+  ![Image](example5.png)
+
+  **Absolute Path:** `C:\Users\Bosen\cse12-pa1-Testing\pa1-starter\cse12pa1student`
+
+  **Result Explanation:** If we input `ls` with the path of a directory, it lists all files and folders in the inputed directory.
+
+  **Does this run into error?** No, it does not run into error.
+
+- **using `ls` with a path to a *file* as an argument**
+
+  ![Image](example6.png)
+
+  **Absolute Path:**  `C:\Users`
+
+  **Result Explanation:** If we input `ls` with the path of a file, it lists the information about that file.
+
+  **Does this run into error?** No, it does not run into error.
+  
 
 `ls` stands for "list" which lists files and folders of a give path, 
 
