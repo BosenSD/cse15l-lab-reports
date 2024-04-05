@@ -25,17 +25,24 @@ Command `cd`
 
 - **using `cd` with a path to a *file* as an argument**
 
-  ![Image](example3.png)
+  ![Image](example3n.png)
 
   **Absolute Path:** `C:\Users\Bosen\cse12-pa1-Testing\pa1-starter\cse12pa1student`
 
-  **Result Explanation:** If we input `cd` with a path as argument, like currently I am at `C:\Users\Bosen\cse12-pa1-Testing\pa1-starter\cse12pa1student` directory and inputed relative path for `Basket`
+  **Result Explanation:** If we input `cd` with a path as argument, like currently I am at `C:\Users\Bosen\cse12-pa1-Testing\pa1-starter\cse12pa1student` directory and inputed relative path for `Basket.java`. This runs into an error because Basket.java is not a directory.
 
   **Does this run into error?** Yes, it runs into error. The reason is `cd` takes only the path for a directory and make that one current working directory. If we input the path for a file, this would run into error.
   
-Command ls
+Command `ls`
 ----------
-ls stands for "list"
+
+- **using `ls` with no arguments.**
+
+- **using `cd` with a path to a *directory* as an argument**
+
+- **using `cd` with a path to a *file* as an argument**
+
+`ls` stands for "list"
 
 
 Command cat
