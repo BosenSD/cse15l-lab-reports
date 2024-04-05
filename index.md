@@ -71,8 +71,18 @@ Command cat
 
 - **using `ls` with no arguments.**
 
+![Image](example7.png)
+
+**Absolute Path:**
+
+**Result Explanation:** 
+
 - **using `ls` with a path to a *directory* as an argument**
 
+![Image](example9.png)
+
 - **using `ls` with a path to a *file* as an argument**
+
+![Image](example8.png)
 
 
