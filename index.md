@@ -19,7 +19,7 @@ Command `cd`
 
   **Absolute Path:** `C:\Users\Bosen\OneDrive`
 
-  **Result Explanation:** `cd` stands for "changing directory" which is used switch working directory given a path. If we input `cd` with a path as argument, it does not generate an output, but take an absolute path or a legitimate relative path and bring us to the corresponding working directory.
+  **Result Explanation:** `cd` stands for "changing directory" which is used switch working directory given a path. If we input `cd` with a path for a directory as argument, it does not generate an output, but take an absolute path or a legitimate relative path and bring us to the corresponding working directory.
   
   **Does this run into error?** No, it does not run into error.
 
@@ -38,11 +38,17 @@ Command `ls`
 
 - **using `ls` with no arguments.**
 
+  ![Image](example4.png)
+
+  **Absolute Path:** `C:\Users\Bosen\cse12-pa1-Testing\pa1-starter\cse12pa1student`
+
+  **Result Explanation:** `ls` stands for "list" which lists files and folders of a give path. If 
+
 - **using `cd` with a path to a *directory* as an argument**
 
 - **using `cd` with a path to a *file* as an argument**
 
-`ls` stands for "list"
+`ls` stands for "list" which lists files and folders of a give path, 
 
 
 Command cat
