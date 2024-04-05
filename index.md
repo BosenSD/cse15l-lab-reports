@@ -52,7 +52,7 @@ Command `ls`
 
   **Absolute Path:** `C:\Users\Bosen\cse12-pa1-Testing\pa1-starter\cse12pa1student`
 
-  **Result Explanation:** If we input `ls` with the path of a directory, it lists all files and folders in the inputed directory.
+  **Result Explanation:** If we input `ls` with the path of a directory, it lists all files and folders in the inputed directory. However, this command does not change the current working directory.
 
   **Does this run into error?** No, it does not run into error.
 
@@ -62,17 +62,17 @@ Command `ls`
 
   **Absolute Path:**  `C:\Users`
 
-  **Result Explanation:** If we input `ls` with the path of a file, it lists the information about that file.
+  **Result Explanation:** If we input `ls` with the path of a file, it lists the information about that file. However, this command does not change the current working directory.
 
   **Does this run into error?** No, it does not run into error.
   
-
-`ls` stands for "list" which lists files and folders of a give path, 
-
-
 Command cat
 -----------
 
-Share an example of using the command with no arguments.
-Share an example of using the command with a path to a directory as an argument.
-Share an example of using the command with a path to a file as an argument.
+- **using `ls` with no arguments.**
+
+- **using `ls` with a path to a *directory* as an argument**
+
+- **using `ls` with a path to a *file* as an argument**
+
+
