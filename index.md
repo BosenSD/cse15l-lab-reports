@@ -25,7 +25,7 @@ Command `cd`
 
 - **using `cd` with a path to a *file* as an argument**
 
-  ![Image](example3.png)
+  ![Image](example3new.png)
 
   **Absolute Path:** `C:\Users\Bosen\cse12-pa1-Testing\pa1-starter\cse12pa1student`
 
