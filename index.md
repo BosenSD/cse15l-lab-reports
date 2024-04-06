@@ -13,6 +13,8 @@ Command `cd`
 
   **Does this run into error?** No, it does not run into error.
 
+  
+
 - **using `cd` with a path to a *directory* as an argument**
 
   ![Image](example2.png)
@@ -23,13 +25,15 @@ Command `cd`
   
   **Does this run into error?** No, it does not run into error.
 
+  
+
 - **using `cd` with a path to a *file* as an argument**
 
   ![Image](example3n.png)
 
   **Absolute Path:** `C:\Users\Bosen\cse12-pa1-Testing\pa1-starter\cse12pa1student`
 
-  **Result Explanation:** If we input `cd` with a path as argument, like currently I am at `C:\Users\Bosen\cse12-pa1-Testing\pa1-starter\cse12pa1student` directory and inputed relative path for `Basket.java`. This runs into an error because Basket.java is not a directory.
+  **Result Explanation:** If we input `cd` with a path of file as argument, like currently I am at `C:\Users\Bosen\cse12-pa1-Testing\pa1-starter\cse12pa1student` directory and inputed relative path for `Basket.java`. This runs into an error because Basket.java is not a directory.
 
   **Does this run into error?** Yes, it runs into error. The reason is `cd` takes only the path for a directory and make that one current working directory. If we input the path for a file, this would run into error.
   
@@ -46,6 +50,8 @@ Command `ls`
 
   **Does this run into error?** No, it does not run into error.
 
+  
+
 - **using `ls` with a path to a *directory* as an argument**
 
   ![Image](example5.png)
@@ -55,6 +61,8 @@ Command `ls`
   **Result Explanation:** If we input `ls` with the path of a directory, it lists all files and folders in the inputed directory. However, this command does not change the current working directory.
 
   **Does this run into error?** No, it does not run into error.
+
+  
 
 - **using `ls` with a path to a *file* as an argument**
 
@@ -66,23 +74,40 @@ Command `ls`
 
   **Does this run into error?** No, it does not run into error.
   
-Command cat
+Command `cat`
 -----------
 
-- **using `ls` with no arguments.**
+- **using `cat` with no arguments.**
 
-![Image](example7.png)
+  ![Image](example7.png)
 
-**Absolute Path:**
+  **Absolute Path:** `C:\Users\Bosen\cse12-pa1-Testing\pa1-starter\cse12pa1student`
 
-**Result Explanation:** 
+  **Result Explanation:** `cat` stands for "concatenate" that prints the contents in one or more files in the given path. If we input `cat` with no argument, it asks user to offer paths for files and prints contents in those files from the given paths.
 
-- **using `ls` with a path to a *directory* as an argument**
+  **Does this run into error?** No, it dooes not run into error.
 
-![Image](example9.png)
+  
 
-- **using `ls` with a path to a *file* as an argument**
+- **using `cat` with a path to a *directory* as an argument**
 
-![Image](example8.png)
+  ![Image](example9.png)
 
+  **Absolute Path:** `C:\Users\Bosen\cse12-pa1-Testing\pa1-starter\cse12pa1student`
+
+  **Result Explanation:**  If we input `cat` with the path of a directory, it will run into an error.
+
+  **Does this run into error?** Yes, this has run into error. `cat` command takes one or multiple paths for only files. 
+
+  
+
+- **using `cat` with a path to a *file* as an argument**
+
+  ![Image](example8.png)
+
+  **Absolute Path:** `C:\Users`
+
+  **Result Explanation:** If we input `cat` with a path of a file, it will prints all contents in that file. Alternatively, we can also offer more than one paths of files so that it will prints all contents in those files together.
+
+  **Does this run into error?** No, it dooes not run into error.
 
