@@ -1,7 +1,5 @@
-[cse15l-lab-report-1](https://github.com/BosenSD/cse15l-lab-reports.git)
-=============
 Command `cd`
-----------
+-----------
 
 - **using `cd` with no arguments.**
 
