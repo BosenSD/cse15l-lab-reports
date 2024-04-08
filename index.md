@@ -17,7 +17,7 @@ Command `cd`
 
   ![Image](example2.png)
 
-  **Absolute Path:** `C:\Users\Bosen\OneDrive`
+  **Absolute Path:** before the code run: `C:\Users\Bosen`, after the code run:  `C:\Users\Bosen\OneDrive`
 
   **Result Explanation:** `cd` stands for "changing directory" which is used switch working directory given a path. If we input `cd` with a path for a directory as argument, it does not generate an output, but take an absolute path or a legitimate relative path and bring us to the corresponding working directory.
   
