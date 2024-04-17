@@ -6,9 +6,7 @@ Command `cd`
   ![Image](example1.png)
   ![Image](example1_part2.png)
 
-  **Absolute Path:** First Photo: `C:\Users\Bosen`
-
-  Second Photo: before the code run: `~/cse12-pa2-Lists/pa2-starter`, after the code run: `~`
+  **Absolute Path:** First Photo: `C:\Users\Bosen`. Second Photo: before the code run: `~/cse12-pa2-Lists/pa2-starter`, after the code run: `~`
 
   **Result Explanation:** If we are in the home directory and input `cd` with no argument, it does not generate an output, and our current working directory does not change.
 
