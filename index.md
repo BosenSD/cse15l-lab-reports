@@ -4,10 +4,13 @@ Command `cd`
 - **using `cd` with no arguments.**
 
   ![Image](example1.png)
+  ![Image](example1_part2.png)
 
   **Absolute Path:** `C:\Users\Bosen`
 
-  **Result Explanation:** If we input `cd` with no argument, it does not generate an output, and our current working directory does not change because we do not input an argument after `cd`
+  **Result Explanation:** If we are in the home directory and input `cd` with no argument, it does not generate an output, and our current working directory does not change.
+
+  However, when we are not currently in the home directory and input `cd` with no argument, it will change the current working directory back to the home directory.
 
   **Does this run into error?** No, it does not run into error.
 
